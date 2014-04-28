@@ -79,6 +79,11 @@ body:after {
 }
 
 /* line 7, ../scss/Application.scss */
+body {
+  background: #22222c;
+}
+
+/* line 11, ../scss/Application.scss */
 .Application {
   font-family: Futura PT;
   font-weight: 100;
@@ -86,7 +91,7 @@ body:after {
   margin: auto;
   width: 720px;
 }
-/* line 13, ../scss/Application.scss */
+/* line 17, ../scss/Application.scss */
 .Application .header {
   display: none;
   color: #efefff;
@@ -96,23 +101,23 @@ body:after {
   font-size: 20em;
   z-index: -1;
 }
-/* line 23, ../scss/Application.scss */
+/* line 27, ../scss/Application.scss */
 .Application .fg {
   height: 100%;
   width: 100%;
   position: relative;
   top: 2em;
 }
-/* line 30, ../scss/Application.scss */
+/* line 34, ../scss/Application.scss */
 .Application .pic {
   display: inline-block;
   vertical-align: middle;
-  background: #ff5742;
+  background: white;
   border-radius: 50%;
   height: 240px;
   width: 240px;
 }
-/* line 49, ../scss/Application.scss */
+/* line 52, ../scss/Application.scss */
 .Application [class^=circle] {
   color: white;
   display: inline-block;
@@ -123,31 +128,31 @@ body:after {
   vertical-align: middle;
   line-height: 240px;
 }
-/* line 50, ../scss/Application.scss */
+/* line 53, ../scss/Application.scss */
 .Application [class^=circle]:nth-child(5n) {
   background: #f6d505;
 }
-/* line 52, ../scss/Application.scss */
+/* line 55, ../scss/Application.scss */
 .Application [class^=circle]:nth-child(5n) a {
   color: #ff452e;
 }
-/* line 56, ../scss/Application.scss */
+/* line 59, ../scss/Application.scss */
 .Application [class^=circle]:nth-child(5n+1) {
   background: #00af4e;
 }
-/* line 58, ../scss/Application.scss */
+/* line 61, ../scss/Application.scss */
 .Application [class^=circle]:nth-child(5n+1) a {
   color: #007c37;
 }
-/* line 62, ../scss/Application.scss */
+/* line 65, ../scss/Application.scss */
 .Application [class^=circle]:nth-child(5n+2) {
   background: #ff452e;
 }
-/* line 64, ../scss/Application.scss */
+/* line 67, ../scss/Application.scss */
 .Application [class^=circle]:nth-child(5n+2) a {
   color: #f6d505;
 }
-/* line 79, ../scss/Application.scss */
+/* line 83, ../scss/Application.scss */
 .Application .bio {
   text-align: center;
   color: #00af4e;

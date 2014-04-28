@@ -4,6 +4,10 @@
 
 $circle-size: 240px;
 
+body {
+	background: #22222c;
+}
+
 .Application {
 	font-family: Futura PT;
 	font-weight: 100;
@@ -30,8 +34,7 @@ $circle-size: 240px;
 	.pic {
 		display: inline-block;
 		vertical-align: middle;
-		// margin: auto;
-		background: adjust-lightness($paper-cut,4);
+		background: white;
 		border-radius: 50%;
 		height: $circle-size;
 		width: $circle-size;
@@ -65,6 +68,7 @@ $circle-size: 240px;
 				color: $yellow-pencil;
 			}
 		}
+
 		color: white;
 		display: inline-block;
 		border-radius: 50%;
