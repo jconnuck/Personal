@@ -1321,8 +1321,6 @@ module.exports = CSSPropertyOperations;
 
 },{"./CSSProperty":"K9/sGI","./dangerousStyleValue":"X10jwB","./escapeTextForBrowser":"Mt80Ua","./hyphenate":"TBkR4M","./memoizeStringOnly":"6i9/v9"}],"CSSPropertyOperations":[function(require,module,exports){
 module.exports=require('SYRM1s');
-},{}],"CallbackRegistry":[function(require,module,exports){
-module.exports=require('Q4T1Hj');
 },{}],"Q4T1Hj":[function(require,module,exports){
 /**
  * Copyright 2013 Facebook, Inc.
@@ -1416,6 +1414,8 @@ var CallbackRegistry = {
 
 module.exports = CallbackRegistry;
 
+},{}],"CallbackRegistry":[function(require,module,exports){
+module.exports=require('Q4T1Hj');
 },{}],"w680QM":[function(require,module,exports){
 /**
  * Copyright 2013 Facebook, Inc.
@@ -2586,6 +2586,8 @@ module.exports = DefaultDOMPropertyConfig;
 
 },{"./DOMProperty":"NCLlX8"}],"DefaultDOMPropertyConfig":[function(require,module,exports){
 module.exports=require('POtJvS');
+},{}],"DefaultEventPluginOrder":[function(require,module,exports){
+module.exports=require('O7J9XR');
 },{}],"O7J9XR":[function(require,module,exports){
 /**
  * Copyright 2013 Facebook, Inc.
@@ -2630,11 +2632,7 @@ var DefaultEventPluginOrder = [
 
 module.exports = DefaultEventPluginOrder;
 
-},{"./keyOf":"DJrhFj"}],"DefaultEventPluginOrder":[function(require,module,exports){
-module.exports=require('O7J9XR');
-},{}],"EnterLeaveEventPlugin":[function(require,module,exports){
-module.exports=require('MDva5z');
-},{}],"MDva5z":[function(require,module,exports){
+},{"./keyOf":"DJrhFj"}],"MDva5z":[function(require,module,exports){
 /**
  * Copyright 2013 Facebook, Inc.
  *
@@ -2743,8 +2741,8 @@ var EnterLeaveEventPlugin = {
 
 module.exports = EnterLeaveEventPlugin;
 
-},{"./EventConstants":"HNKsBD","./EventPropagators":"y0zQxG","./ExecutionEnvironment":"A7nmhA","./ReactMount":"aPq13b","./SyntheticMouseEvent":"31Grh1","./keyOf":"DJrhFj"}],"EventConstants":[function(require,module,exports){
-module.exports=require('HNKsBD');
+},{"./EventConstants":"HNKsBD","./EventPropagators":"y0zQxG","./ExecutionEnvironment":"A7nmhA","./ReactMount":"aPq13b","./SyntheticMouseEvent":"31Grh1","./keyOf":"DJrhFj"}],"EnterLeaveEventPlugin":[function(require,module,exports){
+module.exports=require('MDva5z');
 },{}],"HNKsBD":[function(require,module,exports){
 /**
  * Copyright 2013 Facebook, Inc.
@@ -2814,8 +2812,8 @@ var EventConstants = {
 
 module.exports = EventConstants;
 
-},{"./keyMirror":"uKBiYG"}],"EventListener":[function(require,module,exports){
-module.exports=require('oGdyjm');
+},{"./keyMirror":"uKBiYG"}],"EventConstants":[function(require,module,exports){
+module.exports=require('HNKsBD');
 },{}],"oGdyjm":[function(require,module,exports){
 /**
  * Copyright 2013 Facebook, Inc.
@@ -2872,6 +2870,8 @@ var EventListener = {
 
 module.exports = EventListener;
 
+},{}],"EventListener":[function(require,module,exports){
+module.exports=require('oGdyjm');
 },{}],"0Fcls8":[function(require,module,exports){
 /**
  * Copyright 2013 Facebook, Inc.
@@ -13674,19 +13674,19 @@ var Application = React.createClass({displayName: 'Application',
 			React.DOM.div( {className:"circle"}, "Maker: ", React.DOM.a( {href:"www.tableslip.com"}, "Tableslip.com")),
 			React.DOM.div( {className:"circle"}),
 			React.DOM.div( {className:"circle"}),
+			React.DOM.div( {className:"circle"}, "New York City Kid"),
 			React.DOM.div( {className:"circle"}, "3x Fantasy Baseball Champ"),
 			React.DOM.div( {className:"circle"}, "Brand Enthusiast"),
+			React.DOM.div( {className:"circle"}),
+			React.DOM.div( {className:"circle"}),
 			React.DOM.div( {className:"circle"}, "Stanley Kubrick Fan"),
-			React.DOM.div( {className:"circle"}),
-			React.DOM.div( {className:"circle"}),
-			React.DOM.div( {className:"circle"}),
-			React.DOM.div( {className:"circle"}, "Diet Coke Guzzler"),
 			React.DOM.div( {className:"circle"}, React.DOM.a( {href:"https://www.duolingo.com/jconnuck"}, "Duolingo Italian Level 12")),
+			React.DOM.div( {className:"circle"}, "Diet Coke Guzzler"),
+			React.DOM.div( {className:"circle"}),
 			React.DOM.div( {className:"circle"}),
 			React.DOM.div( {className:"circle"}),
 			React.DOM.div( {className:"circle"}),
 			React.DOM.div( {className:"circle"}, "Guitar Amateur"),
-			React.DOM.div( {className:"circle"}),
 			React.DOM.div( {className:"circle"}),
 			React.DOM.div( {className:"circle"}),
 			React.DOM.div( {className:"circle"}),

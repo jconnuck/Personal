@@ -23,19 +23,19 @@ var Application = React.createClass({
 			<div class="circle">Maker: <a href="www.tableslip.com">Tableslip.com</a></div>
 			<div class="circle"></div>
 			<div class="circle"></div>
+			<div class="circle">New York City Kid</div>
 			<div class="circle">3x Fantasy Baseball Champ</div>
 			<div class="circle">Brand Enthusiast</div>
+			<div class="circle"></div>
+			<div class="circle"></div>
 			<div class="circle">Stanley Kubrick Fan</div>
-			<div class="circle"></div>
-			<div class="circle"></div>
-			<div class="circle"></div>
-			<div class="circle">Diet Coke Guzzler</div>
 			<div class="circle"><a href="https://www.duolingo.com/jconnuck">Duolingo Italian Level 12</a></div>
+			<div class="circle">Diet Coke Guzzler</div>
+			<div class="circle"></div>
 			<div class="circle"></div>
 			<div class="circle"></div>
 			<div class="circle"></div>
 			<div class="circle">Guitar Amateur</div>
-			<div class="circle"></div>
 			<div class="circle"></div>
 			<div class="circle"></div>
 			<div class="circle"></div>
