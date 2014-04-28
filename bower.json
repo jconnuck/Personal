@@ -1,0 +1,7 @@
+{
+  "name": "john",
+  "version": "0.0.0",
+  "dependencies": {
+    "sockjs": "~0.3.4"
+  }
+}

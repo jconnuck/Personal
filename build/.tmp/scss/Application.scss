@@ -1,0 +1,90 @@
+@import "compass/reset";
+@import "Grid.scss";
+@import "Colors";
+
+$circle-size: 240px;
+
+.Application {
+	font-family: Futura PT;
+	font-weight: 100;
+	font-size: 1.2em;
+	margin: auto;
+	width: 720px;
+	.header {
+		display: none;
+		color: #efefff;
+		font-weight: 800;
+		font-style: italic;
+		position: fixed;
+		font-size: 20em;
+		z-index: -1;
+	}
+
+	.fg {
+		height: 100%;
+		width: 100%;
+		position: relative;
+		top: 2em;
+	}
+
+	.pic {
+		display: inline-block;
+		vertical-align: middle;
+		// margin: auto;
+		background: adjust-lightness($paper-cut,4);
+		border-radius: 50%;
+		height: $circle-size;
+		width: $circle-size;
+	}
+
+	// $i: 26;
+	// @while $i > 0 {
+	// 	.circle-#{$i} {
+	// 		background: adjust-lightness(adjust-lightness($paper-cut, 5), 1 * $i);
+	// 		color: white; //adjust-lightness($green, $i);
+	// 	}
+	// 	$i: $i - 1;
+	// }
+
+	[class^=circle] {
+		&:nth-child(5n) {
+			background: $yellow-pencil;
+			a {
+				color: $paper-cut;
+			}
+		}
+		&:nth-child(5n+1) {
+			background: $green;
+			a {
+				color: adjust-lightness($green, -10);
+			}
+		}
+		&:nth-child(5n+2) {
+			background: $paper-cut;
+			a {
+				color: $yellow-pencil;
+			}
+		}
+		color: white;
+		display: inline-block;
+		border-radius: 50%;
+		height: $circle-size;
+		width: $circle-size;
+		text-align: center;
+		vertical-align: middle;
+		line-height: $circle-size;
+	}
+
+
+	.bio {
+		text-align: center;
+		color: $green;
+		font-size: 1em;
+		font-weight: 200;
+		margin: auto;
+		// position: absolute;
+		// left: 0; bottom: 10; right: 0;
+		height: 3em;
+		padding: 8px 0;
+	}
+}
