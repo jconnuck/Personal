@@ -2,10 +2,24 @@
 @import "Grid.scss";
 @import "Colors";
 
+@mixin vertical-align {
+  position: relative;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
 $circle-size: 240px;
 
 body {
-	background: #22222c;
+	background: $blue;
+}
+
+.iconic {
+	color: white;
+	width: 1em;
+	height: 1em;
 }
 
 .Application {
@@ -25,10 +39,7 @@ body {
 	}
 
 	.fg {
-		height: 100%;
-		width: 100%;
-		position: relative;
-		top: 2em;
+		padding: 2em 0;
 	}
 
 	.pic {
@@ -38,7 +49,34 @@ body {
 		border-radius: 50%;
 		height: $circle-size;
 		width: $circle-size;
+		background-image: url('/gameday2.jpg');
+		background-size: cover;
+
+		.picOverlay {
+			visibility: hidden;
+			fill: $blue;
+			opacity: .9;
+			.iconic-property-accent {
+				fill: $blue;
+			}
+
+
+			margin: auto;
+			position: relative;
+			top: 0; left: 0; bottom: 0; right: 0;
+			width: $circle-size;
+			font-size: 5em;
+			@include vertical-align;
+		}
+
+		// &:hover {
+		// 	.picOverlay {
+		// 		visibility: visible;
+		// 	}
+		// }
 	}
+
+
 
 	// $i: 26;
 	// @while $i > 0 {
@@ -68,6 +106,23 @@ body {
 				color: $yellow-pencil;
 			}
 		}
+
+		// .overlay {
+		// 	visibility: hidden;
+		// 	fill: $blue;
+		// 	opacity: .9;
+		// 	.iconic-property-accent {
+		// 		fill: $blue;
+		// 	}
+		// 	font-size: 5em;
+		// 	@include vertical-align;
+		// }
+
+		// &:hover {
+		// 	.overlay {
+		// 		visibility: visible;
+		// 	}
+		// }
 
 		color: white;
 		display: inline-block;

@@ -14,7 +14,9 @@ var Application = React.createClass({
       <div class="Application">
         <div class="header">John Connuck</div>
 		<div class="fg">
-			<img class="pic" src="gameday2.jpg" alt=""/>
+			<div class="pic circle">
+				<img class="picOverlay iconic" data-src="img/thumb.svg" data-state="up"/>
+			</div>
 			<div class="circle">John Connuck</div>
 			<div class="circle"></div>
 			<div class="circle"></div>
@@ -33,18 +35,18 @@ var Application = React.createClass({
 			<div class="circle">Diet Coke Guzzler</div>
 			<div class="circle"></div>
 			<div class="circle"></div>
-			<div class="circle"></div>
+			<div class="circle">Art Lover</div>
 			<div class="circle"></div>
 			<div class="circle">Guitar Amateur</div>
 			<div class="circle"></div>
 			<div class="circle"></div>
 			<div class="circle"></div>
+			<div class="circle">World Traveler</div>
+			<div class="circle">Halfway-Decent Cook</div>
+			<div class="circle"></div>
+			<div class="circle"></div>
 			<div class="circle"></div>
 			<div class="circle">Vegetarian</div>
-			<div class="circle"></div>
-			<div class="circle"></div>
-			<div class="circle"></div>
-			<div class="circle"></div>
 
 		</div>
 			    	// <div class="links">

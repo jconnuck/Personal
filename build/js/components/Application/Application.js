@@ -14,7 +14,9 @@ var Application = React.createClass({displayName: 'Application',
       React.DOM.div( {className:"Application"}, 
         React.DOM.div( {className:"header"}, "John Connuck"),
 		React.DOM.div( {className:"fg"}, 
-			React.DOM.img( {className:"pic", src:"gameday2.jpg", alt:""}),
+			React.DOM.div( {className:"pic circle"}, 
+				React.DOM.img( {className:"picOverlay iconic", 'data-src':"img/thumb.svg", 'data-state':"up"})
+			),
 			React.DOM.div( {className:"circle"}, "John Connuck"),
 			React.DOM.div( {className:"circle"}),
 			React.DOM.div( {className:"circle"}),
@@ -33,18 +35,18 @@ var Application = React.createClass({displayName: 'Application',
 			React.DOM.div( {className:"circle"}, "Diet Coke Guzzler"),
 			React.DOM.div( {className:"circle"}),
 			React.DOM.div( {className:"circle"}),
-			React.DOM.div( {className:"circle"}),
+			React.DOM.div( {className:"circle"}, "Art Lover"),
 			React.DOM.div( {className:"circle"}),
 			React.DOM.div( {className:"circle"}, "Guitar Amateur"),
 			React.DOM.div( {className:"circle"}),
 			React.DOM.div( {className:"circle"}),
 			React.DOM.div( {className:"circle"}),
+			React.DOM.div( {className:"circle"}, "World Traveler"),
+			React.DOM.div( {className:"circle"}, "Halfway-Decent Cook"),
 			React.DOM.div( {className:"circle"}),
-			React.DOM.div( {className:"circle"}, "Vegetarian"),
 			React.DOM.div( {className:"circle"}),
 			React.DOM.div( {className:"circle"}),
-			React.DOM.div( {className:"circle"}),
-			React.DOM.div( {className:"circle"})
+			React.DOM.div( {className:"circle"}, "Vegetarian")
 
 		)
 			    	// <div class="links">
